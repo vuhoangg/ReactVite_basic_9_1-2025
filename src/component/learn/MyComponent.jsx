@@ -1,4 +1,6 @@
 
+import './style.css';
+
 const MyComponent =() =>{
     return (
       <div class="content-header">
@@ -9,10 +11,12 @@ const MyComponent =() =>{
   }
 const SecondComponent =() =>{
     return (
-      <div class="content-header">
+        <>
+      <div className="color_item">
       <h1> Second Component </h1>
      
     </div>
+        </>
     );
   }
 
